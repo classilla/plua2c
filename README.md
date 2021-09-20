@@ -3,7 +3,7 @@
 Plua is a superset of Lua for classic PalmOS devices with added support for graphics, UI, networking, events and sound. This is the source code for the Plua2c "cross-compiler" that generates .prc
 files from Plua 2.0 source. You still need Plua2RT and MathLib to run the .prc
 installed on the same device, which can be downloaded from
-[http://www.floodgap.com/retrotech/plua/](Plua Revisited).
+[Plua Revisited](http://www.floodgap.com/retrotech/plua/).
 
 Plua2c has generously been relicensed under the same MIT terms as Lua by
 its original author, Marcio Migueletto de Andrade. For details, see
