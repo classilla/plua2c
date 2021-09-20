@@ -1,0 +1,9 @@
+1) You can distribute applications built with Plua under any license you want;
+2) You are allowed to include one copy of the Plua runtime (plua2rt.prc) with your application. You do not have to pay any royalties or any kind of fees for including the runtime with your application. You are not allowed to distribute ANY other component of Plua in addition to the Plua runtime;
+3) You can distribute libraries built with libkit under any license you want;
+4) You are not allowed to reverse engineer or modify any component of Plua.
+
+
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY, SO USE IT AT YOUR OWN RISK.
+
+Plua is Copyright (C) Marcio Migueletto de Andrade.

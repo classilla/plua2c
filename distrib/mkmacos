@@ -1,0 +1,11 @@
+#!/bin/sh
+
+. ../VERSION
+
+rm -f pluac-${VERSION}.macos.zip
+
+cp ../bin/macos/plua2c macos
+
+zip pluac-${VERSION}.macos.zip License.txt macos/plua2c macos/Readme.txt
+
+exit 0

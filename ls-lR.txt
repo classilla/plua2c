@@ -1,0 +1,234 @@
+.:
+total 120
+drwxr-xr-x. 4 spectre spectre 4096 Aug 15 18:39 bin
+-rw-r--r--. 1 spectre spectre  762 May 19  2020 build
+-rw-r--r--. 1 spectre spectre 6400 Aug 14 23:04 config
+-rw-r--r--. 1 spectre spectre 6478 Aug 15 18:36 config.cross
+-rw-r--r--. 1 spectre spectre 6453 May 19  2020 config.macos
+-rw-r--r--. 1 spectre spectre  240 May 19  2020 configure
+-rw-r--r--. 1 spectre spectre 1528 May 19  2020 COPYRIGHT
+-rw-r--r--. 1 spectre spectre 9530 May 19  2020 DIFFS
+drwxr-xr-x. 4 spectre spectre 4096 Aug 15 18:48 distrib
+drwxr-xr-x. 2 spectre spectre 4096 May 19  2020 doc
+drwxr-xr-x. 2 spectre spectre 4096 May 19  2020 etc
+-rw-r--r--. 1 spectre spectre 7001 May 19  2020 HISTORY
+drwxr-xr-x. 2 spectre spectre 4096 May 19  2020 include
+-rw-r--r--. 1 spectre spectre 3299 May 19  2020 INSTALL
+drwxr-xr-x. 4 spectre spectre 4096 Aug 15 18:39 lib
+-rw-rw-r--. 1 spectre spectre    0 Sep  8 09:13 ls-lR.txt
+-rw-r--r--. 1 spectre spectre 2769 Aug 14 23:46 Makefile
+-rw-r--r--. 1 spectre spectre  170 Aug 14 23:48 Makefile.cross
+-rw-r--r--. 1 spectre spectre  170 May 19  2020 Makefile.macos
+-rw-r--r--. 1 spectre spectre 3031 May 19  2020 MANIFEST
+-rw-r--r--. 1 spectre spectre 1833 May 19  2020 README
+drwxr-xr-x. 7 spectre spectre 4096 Aug 15 18:41 src
+drwxr-xr-x. 2 spectre spectre 4096 May 19  2020 test
+-rw-r--r--. 1 spectre spectre  875 May 19  2020 UPDATE
+-rw-r--r--. 1 spectre spectre   15 May 19  2020 VERSION
+
+./bin:
+total 8
+drwxrwxr-x. 2 spectre spectre 4096 Aug 15 18:47 cross
+drwxr-xr-x. 2 spectre spectre 4096 Aug 14 23:03 macos
+
+./bin/cross:
+total 0
+
+./bin/macos:
+total 0
+
+./distrib:
+total 16
+drwxrwxr-x. 2 spectre spectre 4096 Aug 14 23:47 cross
+-rw-r--r--. 1 spectre spectre  671 May 19  2020 License.txt
+drwxr-xr-x. 2 spectre spectre 4096 Aug 14 23:45 macos
+-rw-r--r--. 1 spectre spectre  170 May 19  2020 mkmacos
+
+./distrib/cross:
+total 0
+
+./distrib/macos:
+total 0
+
+./doc:
+total 208
+-rw-r--r--. 1 spectre spectre   4694 May 19  2020 contents.html
+-rw-r--r--. 1 spectre spectre   4232 May 19  2020 logo.gif
+-rw-r--r--. 1 spectre spectre   3634 May 19  2020 lua.1
+-rw-r--r--. 1 spectre spectre   3639 May 19  2020 luac.1
+-rw-r--r--. 1 spectre spectre   3931 May 19  2020 luac.html
+-rw-r--r--. 1 spectre spectre   3995 May 19  2020 lua.html
+-rw-r--r--. 1 spectre spectre 175545 May 19  2020 manual.html
+-rw-r--r--. 1 spectre spectre    816 May 19  2020 readme.html
+
+./etc:
+total 56
+-rw-r--r--. 1 spectre spectre 1312 May 19  2020 bin2c.c
+-rw-r--r--. 1 spectre spectre 4074 May 19  2020 compat.lua
+-rw-r--r--. 1 spectre spectre  146 May 19  2020 doall.lua
+-rw-r--r--. 1 spectre spectre 1078 May 19  2020 lua.ico
+-rw-r--r--. 1 spectre spectre  276 May 19  2020 lua.magic
+-rw-r--r--. 1 spectre spectre 1361 May 19  2020 lua.xpm
+-rw-r--r--. 1 spectre spectre  790 May 19  2020 luser_number.h
+-rw-r--r--. 1 spectre spectre 1512 May 19  2020 luser_tests.h
+-rw-r--r--. 1 spectre spectre  810 May 19  2020 Makefile
+-rw-r--r--. 1 spectre spectre 1016 May 19  2020 min.c
+-rw-r--r--. 1 spectre spectre  790 May 19  2020 noparser.c
+-rw-r--r--. 1 spectre spectre 1745 May 19  2020 README
+-rw-r--r--. 1 spectre spectre 2421 May 19  2020 saconfig.c
+-rw-r--r--. 1 spectre spectre 1112 May 19  2020 trace.c
+
+./include:
+total 32
+-rw-r--r--. 1 spectre spectre   169 May 19  2020 compat.h
+-rw-r--r--. 1 spectre spectre  4629 May 19  2020 lauxlib.h
+-rw-r--r--. 1 spectre spectre 11412 May 19  2020 lua.h
+-rw-r--r--. 1 spectre spectre  1118 May 19  2020 lualib.h
+-rw-r--r--. 1 spectre spectre   176 May 19  2020 Makefile
+
+./lib:
+total 8
+drwxrwxr-x. 2 spectre spectre 4096 Aug 15 18:47 cross
+drwxr-xr-x. 2 spectre spectre 4096 Aug 14 23:03 macos
+
+./lib/cross:
+total 0
+
+./lib/macos:
+total 0
+
+./src:
+total 376
+-rw-r--r--. 1 spectre spectre   420 May 19  2020 compat.c
+drwxrwxr-x. 2 spectre spectre  4096 Aug 15 18:47 cross
+-rw-r--r--. 1 spectre spectre 19085 May 19  2020 lapi.c
+-rw-r--r--. 1 spectre spectre   250 May 19  2020 lapi.h
+-rw-r--r--. 1 spectre spectre 17688 May 19  2020 lcode.c
+-rw-r--r--. 1 spectre spectre  2349 May 19  2020 lcode.h
+-rw-r--r--. 1 spectre spectre 14821 May 19  2020 ldebug.c
+-rw-r--r--. 1 spectre spectre   846 May 19  2020 ldebug.h
+-rw-r--r--. 1 spectre spectre 13515 May 19  2020 ldo.c
+-rw-r--r--. 1 spectre spectre  1711 May 19  2020 ldo.h
+-rw-r--r--. 1 spectre spectre  3597 Aug 14 23:19 ldump.c
+-rw-r--r--. 1 spectre spectre  3243 May 19  2020 lfunc.c
+-rw-r--r--. 1 spectre spectre   893 May 19  2020 lfunc.h
+-rw-r--r--. 1 spectre spectre 13954 May 19  2020 lgc.c
+-rw-r--r--. 1 spectre spectre   533 May 19  2020 lgc.h
+drwxr-xr-x. 4 spectre spectre  4096 Aug 15 18:39 lib
+-rw-r--r--. 1 spectre spectre 11051 May 19  2020 llex.c
+-rw-r--r--. 1 spectre spectre  1999 May 19  2020 llex.h
+-rw-r--r--. 1 spectre spectre  3727 Aug 14 22:57 llimits.h
+-rw-r--r--. 1 spectre spectre  2268 May 19  2020 lmem.c
+-rw-r--r--. 1 spectre spectre  1379 May 19  2020 lmem.h
+-rw-r--r--. 1 spectre spectre  4994 May 19  2020 lobject.c
+-rw-r--r--. 1 spectre spectre  7623 May 19  2020 lobject.h
+-rw-r--r--. 1 spectre spectre  2730 May 19  2020 lopcodes.c
+-rw-r--r--. 1 spectre spectre  7006 May 19  2020 lopcodes.h
+-rw-r--r--. 1 spectre spectre 35525 May 19  2020 lparser.c
+-rw-r--r--. 1 spectre spectre  1976 May 19  2020 lparser.h
+-rw-r--r--. 1 spectre spectre  5708 May 19  2020 lstate.c
+-rw-r--r--. 1 spectre spectre  5297 May 19  2020 lstate.h
+-rw-r--r--. 1 spectre spectre  2742 May 19  2020 lstring.c
+-rw-r--r--. 1 spectre spectre   838 May 19  2020 lstring.h
+-rw-r--r--. 1 spectre spectre 14669 May 19  2020 ltable.c
+-rw-r--r--. 1 spectre spectre   807 May 19  2020 ltable.h
+-rw-r--r--. 1 spectre spectre 20429 May 19  2020 ltests.c
+-rw-r--r--. 1 spectre spectre  1577 May 19  2020 ltm.c
+-rw-r--r--. 1 spectre spectre   888 May 19  2020 ltm.h
+drwxr-xr-x. 2 spectre spectre  4096 Aug 14 23:45 lua
+drwxr-xr-x. 4 spectre spectre  4096 Aug 15 18:41 luac
+-rw-r--r--. 1 spectre spectre  5712 May 19  2020 lundump.c
+-rw-r--r--. 1 spectre spectre   970 May 19  2020 lundump.h
+-rw-r--r--. 1 spectre spectre 24272 May 19  2020 lvm.c
+-rw-r--r--. 1 spectre spectre  1023 May 19  2020 lvm.h
+-rw-r--r--. 1 spectre spectre  1659 May 19  2020 lzio.c
+-rw-r--r--. 1 spectre spectre  1363 May 19  2020 lzio.h
+drwxr-xr-x. 2 spectre spectre  4096 Aug 14 23:47 macos
+-rw-r--r--. 1 spectre spectre   892 May 19  2020 Makefile
+-rw-r--r--. 1 spectre spectre  1093 Aug 15 18:41 Makefile.cross
+-rw-r--r--. 1 spectre spectre  1093 May 19  2020 Makefile.macos
+-rw-r--r--. 1 spectre spectre   129 May 19  2020 README
+
+./src/cross:
+total 0
+
+./src/lib:
+total 152
+drwxrwxr-x. 2 spectre spectre  4096 Aug 15 18:47 cross
+-rw-r--r--. 1 spectre spectre 15267 May 19  2020 lauxlib.c
+-rw-r--r--. 1 spectre spectre 17956 May 19  2020 lbaselib.c
+-rw-r--r--. 1 spectre spectre  1061 May 19  2020 lbwlib.c
+-rw-r--r--. 1 spectre spectre  7696 May 19  2020 ldblib.c
+-rw-r--r--. 1 spectre spectre 18418 May 19  2020 liolib.c
+-rw-r--r--. 1 spectre spectre  5520 May 19  2020 lmathlib.c
+-rw-r--r--. 1 spectre spectre  5103 May 19  2020 loadlib.c
+-rw-r--r--. 1 spectre spectre  8566 May 19  2020 lpacklib.c
+-rw-r--r--. 1 spectre spectre 20693 May 19  2020 lstrlib.c
+-rw-r--r--. 1 spectre spectre  6565 May 19  2020 ltablib.c
+drwxr-xr-x. 2 spectre spectre  4096 Aug 14 23:17 macos
+-rw-r--r--. 1 spectre spectre   456 May 19  2020 Makefile
+-rw-r--r--. 1 spectre spectre   607 Aug 14 23:46 Makefile.cross
+-rw-r--r--. 1 spectre spectre   607 May 19  2020 Makefile.macos
+-rw-r--r--. 1 spectre spectre   409 May 19  2020 README
+
+./src/lib/cross:
+total 0
+
+./src/lib/macos:
+total 0
+
+./src/lua:
+total 20
+-rw-r--r--. 1 spectre spectre 9954 May 19  2020 lua.c
+-rw-r--r--. 1 spectre spectre  424 May 19  2020 Makefile
+-rw-r--r--. 1 spectre spectre 1400 May 19  2020 README
+
+./src/luac:
+total 108
+drwxrwxr-x. 2 spectre spectre  4096 Aug 15 18:47 cross
+-rw-r--r--. 1 spectre spectre  4593 May 19  2020 luac.c
+drwxr-xr-x. 2 spectre spectre  4096 Aug 14 23:05 macos
+-rw-r--r--. 1 spectre spectre   843 Aug 14 23:07 Makefile
+-rw-r--r--. 1 spectre spectre   562 Aug 15 18:41 Makefile.cross
+-rw-r--r--. 1 spectre spectre   558 Aug 15 18:41 Makefile.macos
+-rw-r--r--. 1 spectre spectre  5011 Aug 14 23:00 pdb.c
+-rw-r--r--. 1 spectre spectre  1723 Aug 14 23:03 pdb.h
+-rw-r--r--. 1 spectre spectre  7933 May 19  2020 pluac.c
+-rw-r--r--. 1 spectre spectre  4500 May 19  2020 print.c
+-rw-r--r--. 1 spectre spectre   741 May 19  2020 README
+-rw-r--r--. 1 spectre spectre 47798 May 19  2020 resources.h
+
+./src/luac/cross:
+total 0
+
+./src/luac/macos:
+total 0
+
+./src/macos:
+total 0
+
+./test:
+total 84
+-rw-r--r--. 1 spectre spectre  645 May 19  2020 bisect.lua
+-rw-r--r--. 1 spectre spectre  293 May 19  2020 cf.lua
+-rw-r--r--. 1 spectre spectre   80 May 19  2020 echo.lua
+-rw-r--r--. 1 spectre spectre  181 May 19  2020 env.lua
+-rw-r--r--. 1 spectre spectre  707 May 19  2020 factorial.lua
+-rw-r--r--. 1 spectre spectre  257 May 19  2020 fibfor.lua
+-rw-r--r--. 1 spectre spectre  605 May 19  2020 fib.lua
+-rw-r--r--. 1 spectre spectre  418 May 19  2020 globals.lua
+-rw-r--r--. 1 spectre spectre   86 May 19  2020 hello.lua
+-rw-r--r--. 1 spectre spectre 2635 May 19  2020 life.lua
+lrwxrwxrwx. 1 spectre spectre   10 May 19  2020 lua -> ../bin/lua
+lrwxrwxrwx. 1 spectre spectre   11 May 19  2020 luac -> ../bin/luac
+-rw-r--r--. 1 spectre spectre  220 May 19  2020 luac.lua
+-rw-r--r--. 1 spectre spectre  177 May 19  2020 printf.lua
+-rw-r--r--. 1 spectre spectre 1229 May 19  2020 README
+-rw-r--r--. 1 spectre spectre  260 May 19  2020 readonly.lua
+-rw-r--r--. 1 spectre spectre  774 May 19  2020 sieve.lua
+-rw-r--r--. 1 spectre spectre 1494 May 19  2020 sort.lua
+-rw-r--r--. 1 spectre spectre  283 May 19  2020 table.lua
+-rw-r--r--. 1 spectre spectre  747 May 19  2020 trace-calls.lua
+-rw-r--r--. 1 spectre spectre  728 May 19  2020 trace-globals.lua
+-rw-r--r--. 1 spectre spectre  205 May 19  2020 undefined.lua
+-rw-r--r--. 1 spectre spectre  360 May 19  2020 xd.lua

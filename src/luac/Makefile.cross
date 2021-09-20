@@ -1,0 +1,25 @@
+# makefile for Lua compiler
+
+LUA= ../..
+
+include $(LUA)/config.cross
+
+POBJS= cross/pluac.o cross/pdb.o cross/print.o cross/lopcodes.o
+
+PT= $(BIN)/plua2c.exe
+
+cross/%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+all:	$(PT)
+
+$(PT):	$(POBJS) $(LIB)/liblua.a $(LIB)/liblualib.a
+	$(CC) -o $@ $(MYLDFLAGS) $(POBJS) -L$(LIB) -llua -llualib $(EXTRA_LIBS) $(DLLIB)
+	$(STRIP) $@
+
+# print.c needs opcode names from lopcodes.c
+cross/lopcodes.o:	../lopcodes.c ../lopcodes.h
+	$(CC) -o $@ -c $(CFLAGS) -DLUA_OPNAMES ../lopcodes.c
+
+clean:
+	rm -f $(POBJS) $(PT)

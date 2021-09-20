@@ -1,0 +1,7 @@
+bin/cross/*
+bin/macos/*
+bin/lua
+bin/luac
+bin/plua2c
+*.o
+*.a

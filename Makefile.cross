@@ -1,0 +1,8 @@
+LUA=.
+
+include $(LUA)/config.cross
+
+all clean:
+	cd src; $(MAKE) -f Makefile.cross $@
+	cd src/lib; $(MAKE) -f Makefile.cross $@
+	cd src/luac; $(MAKE) -f Makefile.cross $@

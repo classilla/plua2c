@@ -1,0 +1,8 @@
+LUA=.
+
+include $(LUA)/config.macos
+
+all clean:
+	cd src; $(MAKE) -f Makefile.macos $@
+	cd src/lib; $(MAKE) -f Makefile.macos $@
+	cd src/luac; $(MAKE) -f Makefile.macos $@

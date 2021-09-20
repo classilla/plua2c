@@ -1,0 +1,30 @@
+# makefile for Lua standard library
+
+LUA= ../..
+
+include $(LUA)/config.cross
+
+cross/%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+EXTRA_DEFS= $(POPEN) $(TMPNAM) $(DEGREES) $(LOADLIB)
+
+OBJS= cross/lauxlib.o cross/lbaselib.o cross/ldblib.o cross/liolib.o cross/lmathlib.o cross/ltablib.o cross/lstrlib.o cross/loadlib.o cross/lbwlib.o cross/lpacklib.o
+SRCS= lauxlib.c lbaselib.c ldblib.c liolib.c lmathlib.c ltablib.c lstrlib.c loadlib.c lbwlib.c lpacklib.c
+
+T= $(LIB)/liblualib.a
+
+all:	$T
+
+$T:	$(OBJS)
+	$(AR) $@ $(OBJS)
+	$(RANLIB) $@
+
+clean:
+	rm -f $(OBJS) $T
+
+co:
+	co -q -f -M $(SRCS)
+
+klean:	clean
+	rm -f $(SRCS)
