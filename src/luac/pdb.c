@@ -9,7 +9,19 @@
 
 #include "pdb.h"
 
-#ifdef __LITTLE_ENDIAN__
+#if defined(__LITTLE_ENDIAN__)
+#ifndef IS_LITTLE_ENDIAN
+#define IS_LITTLE_ENDIAN 1
+#endif
+#endif
+
+#if defined(__BYTE_ORDER) && (__BYTE_ORDER == __LITTLE_ENDIAN)
+#ifndef IS_LITTLE_ENDIAN
+#define IS_LITTLE_ENDIAN 1
+#endif
+#endif
+
+#if defined(__BYTE_ORDER__) && (__BYTE_ORDER__ == __ORDER_LITTLE_ENDIAN__)
 #ifndef IS_LITTLE_ENDIAN
 #define IS_LITTLE_ENDIAN 1
 #endif
